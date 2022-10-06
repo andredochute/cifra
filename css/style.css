@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+body{
+    background-image: url("./../img/hacker.gif");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Code Pro';
+    font-weight: bold;
+
+}
+.card-cifra{
+    margin-top: 7vw;
+    background-color: black;
+    color: #1A941A;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px 5px #1A941A;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 25px 25px 25px;
+}
+.buttons{
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2vw;
+}
+.buttons button{
+    width: 8vw;
+}
+#decifrar{
+    border: none;
+    background-color: #1A941A;
+    color: black;
+    font-family: 'Source Code Pro';
+    font-weight: bold;
+}
+#limpar{
+    border: 1px solid #1A941A;
+    background-color: black;
+    color: #1A941A;
+    font-family: 'Source Code Pro';
+    font-weight: bold;
+}
